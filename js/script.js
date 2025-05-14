@@ -7,3 +7,7 @@ function closeNav() {
   document.getElementById("sidenav").classList.remove("active");
   document.getElementById("overlay").classList.remove("active");
 }
+function reloadPage() {
+  closeNav;
+  location.reload;
+}

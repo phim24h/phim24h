@@ -2,10 +2,11 @@ body {
   margin: 0;
   font-family: "Segoe UI", sans-serif;
   overflow-x: hidden;
+  background-color: white;
 }
 
 .menu-icon {
-  font-size: 48px;
+  font-size: 36px;
   padding: 10px 30px;
   cursor: pointer;
   z-index: 1001;
@@ -34,14 +35,16 @@ body {
 .sidenav {
   position: fixed;
   top: 0;
-  left: -80%;
+  left: -300px;
   height: 100%;
-  width: 80%;
-  background: #222;
+  width: max-content;
+  min-width: 250px;
+  max-width: 90vw;
+  background: #1b1b1b;
   color: white;
   transition: left 0.3s ease;
   z-index: 1001;
-  padding-top: 60px;
+  padding-top: 40px;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -71,8 +74,8 @@ body {
 
 .closebtn {
   position: absolute;
-  top: 20px;
+  top: 10px;
   right: 20px;
-  font-size: 18px;
+  font-size: 24px;
   cursor: pointer;
 }
