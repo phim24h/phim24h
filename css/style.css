@@ -52,12 +52,12 @@ body {
 .sidenav a {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 12px;
   color: white;
   padding: 15px 60px;
   text-decoration: none;
   transition: 0ms;
-  font-size: 72px;
+  font-size: 24px;
 }
 
 .sidenav a:hover {
