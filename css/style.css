@@ -34,9 +34,9 @@ body {
 .sidenav {
   position: fixed;
   top: 0;
-  left: -30%;
+  left: -80%;
   height: 100%;
-  width: 30%;
+  width: 80%;
   background: #222;
   color: white;
   transition: left 0.3s ease;
